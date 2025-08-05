@@ -51,9 +51,13 @@ function draw() {
 
   for (var i = 0; i < balls.length; i++) {
     showCannonBalls(balls[i], i);
+     collisionWithBoat(i);
   }
 
   cannon.display();
+}
+function collisionWithBoat(index) {
+  //faça aqui a atividade
 }
 
 function keyPressed() {
@@ -105,3 +109,4 @@ function keyReleased() {
     balls[balls.length - 1].shoot();
   }
 }
+
