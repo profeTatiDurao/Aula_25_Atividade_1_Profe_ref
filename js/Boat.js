@@ -9,7 +9,9 @@ class Boat {
     this.boatPosition = boatPos;
     World.add(world, this.body);
   }
-
+   remove(index) {
+     
+   }
   display() {
     var angle = this.body.angle;
     var pos = this.body.position;
