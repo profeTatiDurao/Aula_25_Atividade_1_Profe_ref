@@ -9,6 +9,9 @@ class CannonBall {
     this.trajectory = [];
     World.add(world, this.body);
   }
+   remove(index) {
+     
+   }
 
   shoot() {
      var newAngle = cannon.angle - 28;
